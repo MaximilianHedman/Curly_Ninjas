@@ -96,7 +96,7 @@ html main {
   display: flex;
   height: 100%;
   padding: 1rem 1rem 1rem 0;
-  gap: 18rem;
+  gap: 18%;
 }
 body main aside,
 html main aside {
@@ -183,6 +183,10 @@ html footer {
   font-size: 0.5rem;
   color: #fff;
   background-color: #1a001a;
+}
+body footer:hover,
+html footer:hover {
+  cursor: default;
 }
 body .bangers-regular,
 html .bangers-regular {

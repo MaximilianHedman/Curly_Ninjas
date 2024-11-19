@@ -56,7 +56,7 @@ html {
                 list-style: none;
                 gap: 1rem;
                 height: 100%;
-    
+
                 a {
                     color: #000;
                     font-size: 1.5rem;
@@ -65,14 +65,14 @@ html {
                     border-radius: 1rem 0 1rem 0;
                     box-shadow: 2px 2px 5px rgba(0, 0, 0, 10);
                     background-color: #ffaa00;
-    
+
                     &:hover {
                         background-color: hsl(40, 100%, 40%);
                         box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 10);
                     }
                 }
             }
-    
+
             .sub-btn {
                 font-size: 1rem;
                 padding: .8rem 2rem;
@@ -81,7 +81,7 @@ html {
                 background-color: hsl(40, 100%, 50%);
                 box-shadow: 2px 2px 5px rgba(0, 0, 0, 10);
                 font-weight: 700;
-    
+
                 &:hover {
                     background-color: hsl(40, 100%, 40%);
                     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 10);
@@ -90,13 +90,13 @@ html {
             }
         }
     }
-    
-    //TODO 
+
+    //TODO_____________________________
     main {
         display: flex;
         height: 100%;
         padding: 1rem 1rem 1rem 0;
-        gap: 18rem;
+        gap: 18%;
 
         aside {
             min-width: 10rem;
@@ -111,6 +111,54 @@ html {
             background-color: #ffaa00;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 10);
 
+            // position: relative;
+            // z-index: 1;
+            // overflow: hidden;
+
+            // &::before,
+            // &::after {
+            //     content: '';
+            //     position: absolute;
+            //     top: 0;
+            //     left: 0;
+            //     right: 0;
+            //     bottom: 0;
+            //     border-radius: 0 1rem 1rem 0; // Match the shape of the <aside>
+            //     z-index: -1; // Place behind content
+            // }
+
+            // // Outer gradient border
+            // &::before {
+            //     background: linear-gradient(to bottom, #1a001a, #800080); // Border gradient
+            //     z-index: -2; // Behind the inner cutout
+            // }
+
+            // // Inner cutout to simulate the border
+            // &::after {
+            //     background: linear-gradient(to bottom, #ffaa00, #1a001a); // Same as <aside>'s background
+            //     margin: 5px; // Border thickness
+            // }
+
+            // .aside-links {
+            //     display: flex;
+            //     flex-direction: column;
+            //     list-style: none;
+            //     font-size: 1.2rem;
+            //     font-family: "Roboto", serif;
+            //     font-style: italic;
+            //     font-weight: 600;
+            //     gap: .5rem;
+
+            //     a {
+            //         // text-decoration: none;
+            //         color: #1a001a;
+
+            //         &:hover {
+            //             color: #800080;
+            //         }
+            //     }
+            // }
+
             .aside-links {
                 display: flex;
                 flex-direction: column;
@@ -123,7 +171,7 @@ html {
 
                 a {
                     // text-decoration: none;
-                    color:#1a001a;
+                    color: #1a001a;
 
                     &:hover {
                         color: #800080;
@@ -185,6 +233,10 @@ html {
         font-size: .5rem;
         color: #fff;
         background-color: #1a001a;
+
+        &:hover {
+            cursor: default;
+        }
     }
 
 
