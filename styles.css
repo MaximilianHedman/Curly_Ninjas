@@ -95,8 +95,8 @@ body main,
 html main {
   display: flex;
   height: 100%;
-  padding: 1rem 0;
-  gap: 18%;
+  padding: 1rem 1rem 1rem 0;
+  gap: 18rem;
 }
 body main aside,
 html main aside {
