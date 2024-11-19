@@ -94,9 +94,10 @@ html {
     //TODO_____________________________
     main {
         display: flex;
+        justify-content: space-between;
         height: 100%;
         padding: 1rem 1rem 1rem 0;
-        gap: 18%;
+        gap: 2rem;
 
         aside {
             min-width: 10rem;
@@ -225,17 +226,35 @@ html {
         }
     }
 
+    .filler {
+        // display: flex;
+        min-width: 160px;
+        // border: 1px solid red;
+    }
+
     footer {
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-end;
         justify-content: center;
-        padding: 1rem 0;
+        padding: 1rem 1rem;
+        gap: 1rem;
         font-size: .5rem;
         color: #fff;
         background-color: #1a001a;
 
         &:hover {
             cursor: default;
+        }
+
+        .bajs {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+
+            img {
+                width: 2rem;
+            }
         }
     }
 
