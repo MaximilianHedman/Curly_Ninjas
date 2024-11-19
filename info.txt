@@ -1,0 +1,26 @@
+Bygg en reseblogg-layout
+Skapa en sida som är layoutad med hjälp av flexbox. Syftet är att ni övar på egenskaper som flex-grow, 
+flex-wrap, justify-content, och align-items, samt få en förståelse för hur flexbox kan användas för responsiv design. 
+Du övar på att strukturera en sida med flera sektioner. Kom ihåg semantiken! Uppgiften kräver ingen inlämning.
+
+🔥 Tips! Kolla in länkarna här för lite mer info om Flexbox.
+
+1. En toppmeny med:
+    a. En logotyp eller bloggens namn.
+    b. Navigationslänkar för "Hem", "Resor", och "Kontakt".
+    c. En knapp för att "Prenumerera".
+
+2. En huvudsektion som innehåller:
+    a. Ett galleri av blogginlägg: Varje blogginlägg ska vara ett kort med en bild, en titel och en kort beskrivning. 
+       Layouta dessa i en flex-wrap-grid. Utgå från 3 element på rad likt vi gjorde under min codealong
+    b. En sidokolumn: En lista över "Populära destinationer" med länkar.
+
+3. En footer som innehåller:
+    a. Information om bloggen (t.ex. "Om oss").
+    b. Snabblänkar (t.ex. "Policy", "Kontakt").
+    c. Länkar till sociala medier.
+
+Extra övningar:
+    a. Se till att galleriet är responsivt och ändrar antalet kort per rad baserat på skärmbredden
+    b. Gör att sidokolumnen blir vertikal under galleriet när skärmen är smalare (t.ex. mobil)
+    c. Begränsa storleken på bilderna i korten med hjälp av max-width och flexbox

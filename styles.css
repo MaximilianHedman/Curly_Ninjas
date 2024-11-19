@@ -1,0 +1,222 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #303030;
+}
+body .navbar,
+html .navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: hsl(300, 100%, 25%);
+  gap: 1rem;
+}
+body .navbar .logo-container,
+html .navbar .logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  padding: 0 1rem;
+  border-radius: 1rem 0 1rem 0;
+  background-color: hsl(40, 100%, 50%);
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+body .navbar .logo-container:hover,
+html .navbar .logo-container:hover {
+  background-color: hsl(40, 100%, 40%);
+  box-shadow: inset 2px 2px 5px rgb(0, 0, 0);
+  cursor: pointer;
+}
+body .navbar .logo-container .logo,
+html .navbar .logo-container .logo {
+  width: 3.5rem;
+  padding-right: 0.5rem;
+}
+body .navbar .links-n-btn,
+html .navbar .links-n-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding-left: 1rem;
+}
+body .navbar .links-n-btn .nav-links,
+html .navbar .links-n-btn .nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1rem;
+  height: 100%;
+}
+body .navbar .links-n-btn .nav-links a,
+html .navbar .links-n-btn .nav-links a {
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 1rem 0 1rem 0;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  background-color: #ffaa00;
+}
+body .navbar .links-n-btn .nav-links a:hover,
+html .navbar .links-n-btn .nav-links a:hover {
+  background-color: hsl(40, 100%, 40%);
+  box-shadow: inset 2px 2px 5px rgb(0, 0, 0);
+}
+body .navbar .links-n-btn .sub-btn,
+html .navbar .links-n-btn .sub-btn {
+  font-size: 1rem;
+  padding: 0.8rem 2rem;
+  border-radius: 0 1rem 0 1rem;
+  border: 0;
+  background-color: hsl(40, 100%, 50%);
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  font-weight: 700;
+}
+body .navbar .links-n-btn .sub-btn:hover,
+html .navbar .links-n-btn .sub-btn:hover {
+  background-color: hsl(40, 100%, 40%);
+  box-shadow: inset 2px 2px 5px rgb(0, 0, 0);
+  cursor: pointer;
+}
+body main,
+html main {
+  display: flex;
+  height: 100%;
+  padding: 1rem 0;
+  gap: 18%;
+}
+body main aside,
+html main aside {
+  min-width: 10rem;
+  padding: 1rem;
+  background: linear-gradient(to bottom, #ffaa00, #1a001a);
+  border-radius: 0 1rem 1rem 0;
+  border-top: 5px solid #800080;
+  border-right: 5px solid #800080;
+  border-bottom: 5px solid #800080;
+  border-left: 0;
+  border-color: #800080;
+  background-color: #ffaa00;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+body main aside .aside-links,
+html main aside .aside-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", serif;
+  font-style: italic;
+  font-weight: 600;
+  gap: 0.5rem;
+}
+body main aside .aside-links a,
+html main aside .aside-links a {
+  color: #1a001a;
+}
+body main aside .aside-links a:hover,
+html main aside .aside-links a:hover {
+  color: #800080;
+}
+body main section,
+html main section {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body main section .cards-container,
+html main section .cards-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+body main section .cards-container .card,
+html main section .cards-container .card {
+  min-width: 220px;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  background-color: #f2f2f2;
+}
+body main section .cards-container .card:hover,
+html main section .cards-container .card:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 75%);
+}
+body main section .cards-container .card .card-img,
+html main section .cards-container .card .card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #ffaa00;
+}
+body main section .cards-container .card .card-img:hover,
+html main section .cards-container .card .card-img:hover {
+  background-color: hsl(40, 100%, 40%);
+}
+body main section .cards-container .card .card-text,
+html main section .cards-container .card .card-text {
+  padding: 1rem;
+  text-align: left;
+}
+body footer,
+html footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  font-size: 0.5rem;
+  color: #fff;
+  background-color: #1a001a;
+}
+body .bangers-regular,
+html .bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body .roboto-light,
+html .roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body .roboto-regular,
+html .roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body .roboto-medium,
+html .roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body .roboto-bold,
+html .roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body .roboto-bold-italic,
+html .roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}/*# sourceMappingURL=styles.css.map */
